@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #5E5848;
+    /* background-color: #5E5848; */
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    color: #FEFAE0;
+    font-family: 'Genos', Arial, Helvetica, sans-serif
+}
+
+/* Navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    display: block;
+    transition: top 0.3s;
+    width: 100%;
+    font-family: 'Genos', Arial, Helvetica, sans-serif;
+}
+
+
+.navbar-nav{
+    font-size: 1.7em;
+}
+
+.navbar-nav a {
+    margin: 0 15px;
+}
+
+.navigation .navBrand{
+    font-family:'Nothing You Could Do', cursive, Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: #FEFAE0;
+}
+
+.navigation a{
+    color: #FEFAE0;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: rgb(124, 121, 121);
+}
+
+/* Pages */
+
+
+
+.homeHeader {
+    margin-bottom: 40vh;
+    margin-top: 40vh;
+}
+
+#home{
+    color: #FEFAE0;
+}
+
+#home h1{
+    font-family:'Nothing You Could Do', cursive, Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    z-index: 1;
+}
+
+.subHeader {
+    font-family: 'Genos', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.aboutMe{
+    font-size: 1em;
+}
+
+.skillIcons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 75px;
+}
+
+.icons {
+    padding: 0 35px 0 35px;
+}
+
+
+.modalButton {
+    background: none;
+    border: none;
+}
+
+.modalButton:hover {
+    background:none;
+    color: rgb(138, 138, 138);
+    transform: scale(1.2);
+    border: none;
+}
+
+.modalButton:focus {
+    background: none;
+}
+
+.modalButton {
+    font-size: 3em;
+}
+
+
+@keyframes grow-and-shrink {
+    0% {
+    transform: scale(1.03);
+    }
+    50% {
+    transform: scale(1.08);
+    }
+    100% {
+    transform: scale(1.03);
+    }
+}
+
+.modalButton {
+    animation: grow-and-shrink 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.modal-header {
+    background-color: #ccc9b3;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    color: #584c4c;
+    font-family: 'Genos', Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 8vh;
+}
+
+.modal-header h5 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.modal-body {
+    background-color: #fefae0;
+    /* background-color: #5E5848; */
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    color: #5E5848;
+}
+
+.modal-footer {
+    background-color: #ccc9b3;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    color: #584c4c;
+    font-family: 'Genos', Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 7vh;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardModal{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.cardColumn {
+    margin: 5px 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formContainer {
+    font-size: 1.3em;
+    width: 65%;
+}
+
+#contactSubmit {
+    margin-top: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+.resume a {
+    color: rgb(156, 209, 226);
+}
